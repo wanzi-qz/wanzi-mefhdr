@@ -1,0 +1,34 @@
+# --- datasets & personal photos: too large / private, re-download instead ---
+data/raw/
+data/external/
+
+# --- heavy intermediates: fused.png (~25MB/ea), weight maps, warp dumps ---
+runs/**/*.png
+runs/**/input_*.jpg
+runs/**/wmap_*.png
+runs/**/weight_sum_preview.png
+runs/**/fused.png
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- tooling / OS ---
+.idea/
+.vscode/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# NOTE: what SHIPS on purpose:
+#   - data/sample/            (synthetic bracket, lets you run the pipeline immediately)
+#   - runs/**/fused.jpg       (~5MB each, one per experiment — visual evidence)
+#   - runs/**/*.json          (all metrics & timing, every number in reports/ is here)
+#   - runs/m4_kalantari/*.jpg (per-scene fused vs GT comparison, 13MB total)
+#   - runs/m2_alignment/*.jpg (edge-overlay alignment verification figures)
+# Kalantari test set (575MB): download from
+#   https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/PaperData/SIGGRAPH17_HDR_Testset.zip
+#   unzip to data/external/SIG17/ then run scripts/eval_kalantari.py

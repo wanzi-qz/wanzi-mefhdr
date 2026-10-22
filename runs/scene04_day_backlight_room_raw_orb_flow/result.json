@@ -1,0 +1,121 @@
+{
+  "timing_sec": {
+    "load": 3.0801,
+    "align_orb_flow": 7.2546,
+    "weights": 2.0344,
+    "fusion": 1.7381,
+    "save": 2.5004
+  },
+  "total_sec": 17.7355,
+  "inputs": [
+    {
+      "over_pct": 0.0,
+      "under_pct": 0.117,
+      "mean": 56.55,
+      "p1": 14.0,
+      "p99": 99.3
+    },
+    {
+      "over_pct": 0.0,
+      "under_pct": 0.002,
+      "mean": 106.73,
+      "p1": 39.7,
+      "p99": 157.7
+    },
+    {
+      "over_pct": 0.0,
+      "under_pct": 0.0,
+      "mean": 114.34,
+      "p1": 45.3,
+      "p99": 165.0
+    }
+  ],
+  "fused": {
+    "over_pct": 0.0,
+    "under_pct": 0.0,
+    "mean": 94.06,
+    "p1": 44.7,
+    "p99": 133.3
+  },
+  "inputs_paths": [
+    "data\\raw\\self_capture\\scene04_day_backlight_room\\IMG20261022112147.dng",
+    "data\\raw\\self_capture\\scene04_day_backlight_room\\IMG20261022112203.dng",
+    "data\\raw\\self_capture\\scene04_day_backlight_room\\IMG20261022112156.dng"
+  ],
+  "config": {
+    "weights": {
+      "w_contrast": 1.0,
+      "w_saturated": 1.0,
+      "w_exposed": 1.0,
+      "mu": 0.5,
+      "sigma": 0.2
+    },
+    "pyramid": {
+      "levels": 6
+    },
+    "input": {
+      "sort": "brightness",
+      "exts": [
+        "jpg",
+        "jpeg",
+        "png",
+        "bmp",
+        "tif",
+        "tiff"
+      ]
+    },
+    "stats": {
+      "over_threshold": 250,
+      "under_threshold": 5
+    }
+  },
+  "align_info": [
+    {
+      "method": "orb_flow",
+      "orb_inliers": 2950,
+      "orb_matches": 3099,
+      "H": [
+        [
+          1.0105,
+          0.024,
+          -44.6061
+        ],
+        [
+          -0.0124,
+          1.0207,
+          -44.066
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "flow_winsize": 31
+    },
+    null,
+    {
+      "method": "orb_flow",
+      "orb_inliers": 4505,
+      "orb_matches": 4696,
+      "H": [
+        [
+          1.0131,
+          0.0013,
+          -33.7696
+        ],
+        [
+          0.0049,
+          1.0099,
+          -27.0433
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "flow_winsize": 31
+    }
+  ]
+}

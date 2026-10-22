@@ -1,0 +1,9 @@
+numpy>=1.26
+opencv-python>=4.9
+scikit-image>=0.22
+scipy>=1.3
+pyyaml>=6.0
+imageio>=2.34
+matplotlib>=3.8
+# 可选进阶：RAW 输入支持（M3 后决定是否启用）
+# rawpy>=0.24

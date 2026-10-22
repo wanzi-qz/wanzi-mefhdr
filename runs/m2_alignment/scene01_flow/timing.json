@@ -1,0 +1,85 @@
+{
+  "timing_sec": {
+    "load": 0.2986,
+    "align_flow": 9.2513,
+    "weights": 2.6257,
+    "fusion": 2.1768,
+    "save": 3.1977
+  },
+  "total_sec": 18.9727,
+  "inputs": [
+    {
+      "over_pct": 0.0,
+      "under_pct": 3.09,
+      "mean": 38.07,
+      "p1": 1.7,
+      "p99": 122.0
+    },
+    {
+      "over_pct": 0.0,
+      "under_pct": 0.528,
+      "mean": 89.02,
+      "p1": 6.3,
+      "p99": 214.3
+    },
+    {
+      "over_pct": 0.0,
+      "under_pct": 0.526,
+      "mean": 129.68,
+      "p1": 9.3,
+      "p99": 223.3
+    }
+  ],
+  "fused": {
+    "over_pct": 0.0,
+    "under_pct": 0.193,
+    "mean": 107.67,
+    "p1": 14.3,
+    "p99": 184.3
+  },
+  "inputs_paths": [
+    "C:\\Users\\11646\\WorkBuddy\\毕业论文工程化\\MEFHDR\\data\\raw\\self_capture\\scene01\\IMG20261022012014.jpg",
+    "C:\\Users\\11646\\WorkBuddy\\毕业论文工程化\\MEFHDR\\data\\raw\\self_capture\\scene01\\IMG20261022012019.jpg",
+    "C:\\Users\\11646\\WorkBuddy\\毕业论文工程化\\MEFHDR\\data\\raw\\self_capture\\scene01\\IMG20261022012025.jpg"
+  ],
+  "config": {
+    "weights": {
+      "w_contrast": 1.0,
+      "w_saturated": 1.0,
+      "w_exposed": 1.0,
+      "mu": 0.5,
+      "sigma": 0.2
+    },
+    "pyramid": {
+      "levels": 6
+    },
+    "input": {
+      "sort": "brightness",
+      "exts": [
+        "jpg",
+        "jpeg",
+        "png",
+        "bmp",
+        "tif",
+        "tiff"
+      ]
+    },
+    "stats": {
+      "over_threshold": 250,
+      "under_threshold": 5
+    }
+  },
+  "align_info": [
+    {
+      "method": "flow",
+      "median_dx": 0.0559975765645504,
+      "median_dy": -0.04868141561746597
+    },
+    null,
+    {
+      "method": "flow",
+      "median_dx": 0.9312350153923035,
+      "median_dy": -1.2753273248672485
+    }
+  ]
+}

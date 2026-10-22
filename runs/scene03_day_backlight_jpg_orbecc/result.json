@@ -1,0 +1,121 @@
+{
+  "timing_sec": {
+    "load": 0.224,
+    "align_orb_ecc": 0.8705,
+    "weights": 2.0924,
+    "fusion": 1.8838,
+    "save": 2.3986
+  },
+  "total_sec": 8.6135,
+  "inputs": [
+    {
+      "over_pct": 0.001,
+      "under_pct": 0.0,
+      "mean": 63.56,
+      "p1": 12.7,
+      "p99": 197.3
+    },
+    {
+      "over_pct": 0.119,
+      "under_pct": 0.0,
+      "mean": 122.98,
+      "p1": 31.7,
+      "p99": 243.3
+    },
+    {
+      "over_pct": 17.696,
+      "under_pct": 0.0,
+      "mean": 197.78,
+      "p1": 94.3,
+      "p99": 255.0
+    }
+  ],
+  "fused": {
+    "over_pct": 0.014,
+    "under_pct": 0.0,
+    "mean": 139.72,
+    "p1": 74.7,
+    "p99": 215.0
+  },
+  "inputs_paths": [
+    "data\\raw\\self_capture\\scene03_day_backlight\\IMG20261022110747.jpg",
+    "data\\raw\\self_capture\\scene03_day_backlight\\IMG20261022110753.jpg",
+    "data\\raw\\self_capture\\scene03_day_backlight\\IMG20261022110800.jpg"
+  ],
+  "config": {
+    "weights": {
+      "w_contrast": 1.0,
+      "w_saturated": 1.0,
+      "w_exposed": 1.0,
+      "mu": 0.5,
+      "sigma": 0.2
+    },
+    "pyramid": {
+      "levels": 6
+    },
+    "input": {
+      "sort": "brightness",
+      "exts": [
+        "jpg",
+        "jpeg",
+        "png",
+        "bmp",
+        "tif",
+        "tiff"
+      ]
+    },
+    "stats": {
+      "over_threshold": 250,
+      "under_threshold": 5
+    }
+  },
+  "align_info": [
+    {
+      "method": "orb_ecc",
+      "orb_inliers": 1356,
+      "orb_matches": 1485,
+      "ecc_error": "OpenCV(5.0.0) D:\\a\\opencv-python\\opencv-python\\opencv\\modules\\video\\src\\ecc.cpp:372: error: (-210:Unsupported format or ",
+      "H": [
+        [
+          1.0072,
+          0.0219,
+          -88.8763
+        ],
+        [
+          -0.0171,
+          1.0069,
+          97.2078
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    null,
+    {
+      "method": "orb_ecc",
+      "orb_inliers": 1102,
+      "orb_matches": 1199,
+      "ecc_error": "OpenCV(5.0.0) D:\\a\\opencv-python\\opencv-python\\opencv\\modules\\video\\src\\ecc.cpp:372: error: (-210:Unsupported format or ",
+      "H": [
+        [
+          0.9991,
+          0.0092,
+          58.34
+        ],
+        [
+          -0.0073,
+          1.0041,
+          0.2383
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

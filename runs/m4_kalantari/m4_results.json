@@ -1,0 +1,332 @@
+[
+  {
+    "scene": "001",
+    "psnr_mu": 21.55,
+    "ssim_mu": 0.8968,
+    "psnr_mu_optgain": 21.78,
+    "opt_gain": 0.956,
+    "psnr_mu_single_mid": 4.03,
+    "time_s": 0.7,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  {
+    "scene": "002",
+    "psnr_mu": 19.19,
+    "ssim_mu": 0.8676,
+    "psnr_mu_optgain": 20.3,
+    "opt_gain": 0.887,
+    "psnr_mu_single_mid": 4.2,
+    "time_s": 0.8,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  {
+    "scene": "003",
+    "psnr_mu": 18.06,
+    "ssim_mu": 0.8672,
+    "psnr_mu_optgain": 21.4,
+    "opt_gain": 1.283,
+    "psnr_mu_single_mid": 5.05,
+    "time_s": 0.8,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 1,
+        "dy": -2
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 1,
+        "dy": -2
+      }
+    ]
+  },
+  {
+    "scene": "004",
+    "psnr_mu": 16.86,
+    "ssim_mu": 0.7061,
+    "psnr_mu_optgain": 18.95,
+    "opt_gain": 1.286,
+    "psnr_mu_single_mid": 4.75,
+    "time_s": 0.8,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": -14,
+        "dy": -16
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": -13,
+        "dy": -14
+      }
+    ]
+  },
+  {
+    "scene": "005",
+    "psnr_mu": 16.5,
+    "ssim_mu": 0.5686,
+    "psnr_mu_optgain": 18.14,
+    "opt_gain": 1.211,
+    "psnr_mu_single_mid": 5.71,
+    "time_s": 0.8,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 20,
+        "dy": 5
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 30,
+        "dy": 9
+      }
+    ]
+  },
+  {
+    "scene": "006",
+    "psnr_mu": 17.02,
+    "ssim_mu": 0.6525,
+    "psnr_mu_optgain": 18.08,
+    "opt_gain": 1.152,
+    "psnr_mu_single_mid": 5.57,
+    "time_s": 0.7,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": -42,
+        "dy": 10
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": -40,
+        "dy": 8
+      }
+    ]
+  },
+  {
+    "scene": "007",
+    "psnr_mu": 15.97,
+    "ssim_mu": 0.779,
+    "psnr_mu_optgain": 18.67,
+    "opt_gain": 1.162,
+    "psnr_mu_single_mid": 9.53,
+    "time_s": 0.7,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 1,
+        "dy": -1
+      }
+    ]
+  },
+  {
+    "scene": "008",
+    "psnr_mu": 15.32,
+    "ssim_mu": 0.8328,
+    "psnr_mu_optgain": 18.36,
+    "opt_gain": 1.209,
+    "psnr_mu_single_mid": 8.9,
+    "time_s": 0.7,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  {
+    "scene": "009",
+    "psnr_mu": 15.22,
+    "ssim_mu": 0.7573,
+    "psnr_mu_optgain": 18.19,
+    "opt_gain": 1.184,
+    "psnr_mu_single_mid": 10.72,
+    "time_s": 0.7,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": -1
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": -75,
+        "dy": -79
+      }
+    ]
+  },
+  {
+    "scene": "010",
+    "psnr_mu": 16.03,
+    "ssim_mu": 0.7848,
+    "psnr_mu_optgain": 18.73,
+    "opt_gain": 1.151,
+    "psnr_mu_single_mid": 9.67,
+    "time_s": 0.7,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  {
+    "scene": "BarbequeDay",
+    "psnr_mu": 16.8,
+    "ssim_mu": 0.5735,
+    "psnr_mu_optgain": 18.2,
+    "opt_gain": 1.173,
+    "psnr_mu_single_mid": 6.08,
+    "time_s": 0.8,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": -5,
+        "dy": -16
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": -6,
+        "dy": -16
+      }
+    ]
+  },
+  {
+    "scene": "LadySitting",
+    "psnr_mu": 18.37,
+    "ssim_mu": 0.8673,
+    "psnr_mu_optgain": 21.11,
+    "opt_gain": 1.248,
+    "psnr_mu_single_mid": 5.05,
+    "time_s": 0.7,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 1,
+        "dy": -1
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 1,
+        "dy": -1
+      }
+    ]
+  },
+  {
+    "scene": "ManStanding",
+    "psnr_mu": 19.89,
+    "ssim_mu": 0.8749,
+    "psnr_mu_optgain": 20.85,
+    "opt_gain": 0.896,
+    "psnr_mu_single_mid": 3.9,
+    "time_s": 0.8,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  {
+    "scene": "PeopleStanding",
+    "psnr_mu": 16.29,
+    "ssim_mu": 0.5387,
+    "psnr_mu_optgain": 17.64,
+    "opt_gain": 1.198,
+    "psnr_mu_single_mid": 5.71,
+    "time_s": 0.8,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 76,
+        "dy": 16
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 79,
+        "dy": 8
+      }
+    ]
+  },
+  {
+    "scene": "PeopleTalking",
+    "psnr_mu": 18.33,
+    "ssim_mu": 0.7204,
+    "psnr_mu_optgain": 20.26,
+    "opt_gain": 1.203,
+    "psnr_mu_single_mid": 4.99,
+    "time_s": 0.7,
+    "align": [
+      {
+        "method": "mtb",
+        "dx": 5,
+        "dy": 0
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": 2,
+        "dy": -5
+      }
+    ]
+  }
+]

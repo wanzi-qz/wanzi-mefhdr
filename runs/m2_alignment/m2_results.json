@@ -1,0 +1,139 @@
+[
+  {
+    "exp": "A_shift",
+    "shift_px": 3,
+    "method": "mtb",
+    "mean_err_px": 0.0,
+    "max_err_px": 0.0,
+    "time_s": 0.562
+  },
+  {
+    "exp": "A_shift",
+    "shift_px": 3,
+    "method": "flow",
+    "mean_err_px": 0.548,
+    "max_err_px": 0.676,
+    "time_s": 4.295
+  },
+  {
+    "exp": "A_shift",
+    "shift_px": 5,
+    "method": "mtb",
+    "mean_err_px": 0.0,
+    "max_err_px": 0.0,
+    "time_s": 0.601
+  },
+  {
+    "exp": "A_shift",
+    "shift_px": 5,
+    "method": "flow",
+    "mean_err_px": 1.767,
+    "max_err_px": 2.978,
+    "time_s": 4.41
+  },
+  {
+    "exp": "A_shift",
+    "shift_px": 10,
+    "method": "mtb",
+    "mean_err_px": 0.0,
+    "max_err_px": 0.0,
+    "time_s": 0.604
+  },
+  {
+    "exp": "A_shift",
+    "shift_px": 10,
+    "method": "flow",
+    "mean_err_px": 11.391,
+    "max_err_px": 13.619,
+    "time_s": 4.426
+  },
+  {
+    "exp": "A_shift",
+    "shift_px": 20,
+    "method": "mtb",
+    "mean_err_px": 0.0,
+    "max_err_px": 0.0,
+    "time_s": 0.578
+  },
+  {
+    "exp": "A_shift",
+    "shift_px": 20,
+    "method": "flow",
+    "mean_err_px": 23.559,
+    "max_err_px": 27.708,
+    "time_s": 4.423
+  },
+  {
+    "exp": "B_ghost",
+    "method": "no_align",
+    "ghost_pct": 0.0,
+    "time_s": 0.0
+  },
+  {
+    "exp": "B_ghost",
+    "method": "mtb",
+    "ghost_pct": 0.0,
+    "time_s": 0.572,
+    "note": "估计平移=(0,0)，真值(0,0)"
+  },
+  {
+    "exp": "B_ghost",
+    "method": "flow",
+    "ghost_pct": 0.009,
+    "time_s": 4.05
+  },
+  {
+    "exp": "C_pipeline",
+    "method": "no_align",
+    "total_s": 9.7001,
+    "fusion_s": 2.1345,
+    "align_s": 0.0,
+    "over_pct": 0.0,
+    "under_pct": 0.022,
+    "align_info": null
+  },
+  {
+    "exp": "C_pipeline",
+    "method": "mtb",
+    "total_s": 11.0613,
+    "fusion_s": 2.2285,
+    "align_s": 1.2181,
+    "over_pct": 0.0,
+    "under_pct": 0.048,
+    "align_info": [
+      {
+        "method": "mtb",
+        "dx": -61,
+        "dy": 22
+      },
+      null,
+      {
+        "method": "mtb",
+        "dx": -68,
+        "dy": 33
+      }
+    ]
+  },
+  {
+    "exp": "C_pipeline",
+    "method": "flow",
+    "total_s": 18.9727,
+    "fusion_s": 2.1768,
+    "align_s": 9.2513,
+    "over_pct": 0.0,
+    "under_pct": 0.193,
+    "align_info": [
+      {
+        "method": "flow",
+        "median_dx": 0.0559975765645504,
+        "median_dy": -0.04868141561746597
+      },
+      null,
+      {
+        "method": "flow",
+        "median_dx": 0.9312350153923035,
+        "median_dy": -1.2753273248672485
+      }
+    ]
+  }
+]

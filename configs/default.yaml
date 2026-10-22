@@ -1,0 +1,23 @@
+# MEF-HDR 默认参数。所有实验改参数都从这里改（或复制一份到 configs/ 下另起名）。
+
+# 权重图三要素（Mertens 2007）
+weights:
+  w_contrast: 1.0     # 对比度权重
+  w_saturated: 1.0    # 饱和度权重
+  w_exposed: 1.0      # 适度曝光权重
+  mu: 0.5             # 适度曝光的中心亮度（8bit 归一化后）
+  sigma: 0.2          # 适度曝光的容差（高斯宽度）
+
+# 拉普拉斯金字塔
+pyramid:
+  levels: 6           # 层数；太少了出光晕，太多了糊
+
+# 输入
+input:
+  sort: brightness    # 连拍排序方式：brightness=按亮度升序(短曝在前) | filename
+  exts: [jpg, jpeg, png, bmp, tif, tiff]
+
+# 输出统计口径（8bit）
+stats:
+  over_threshold: 250 # 亮度 > 此值记为过曝
+  under_threshold: 5  # 亮度 < 此值记为欠曝

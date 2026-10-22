@@ -1,0 +1,71 @@
+{
+  "timing_sec": {
+    "load": 0.2723,
+    "weights": 2.7819,
+    "fusion": 2.4425,
+    "save": 3.0834
+  },
+  "total_sec": 10.5327,
+  "inputs": [
+    {
+      "over_pct": 0.0,
+      "under_pct": 2.976,
+      "mean": 37.47,
+      "p1": 1.7,
+      "p99": 121.7
+    },
+    {
+      "over_pct": 0.0,
+      "under_pct": 0.528,
+      "mean": 89.02,
+      "p1": 6.3,
+      "p99": 214.3
+    },
+    {
+      "over_pct": 0.001,
+      "under_pct": 0.329,
+      "mean": 130.28,
+      "p1": 12.7,
+      "p99": 223.3
+    }
+  ],
+  "fused": {
+    "over_pct": 0.0,
+    "under_pct": 0.022,
+    "mean": 110.16,
+    "p1": 23.7,
+    "p99": 168.3
+  },
+  "inputs_paths": [
+    "data\\raw\\self_capture\\scene01\\IMG20261022012014.jpg",
+    "data\\raw\\self_capture\\scene01\\IMG20261022012019.jpg",
+    "data\\raw\\self_capture\\scene01\\IMG20261022012025.jpg"
+  ],
+  "config": {
+    "weights": {
+      "w_contrast": 1.0,
+      "w_saturated": 1.0,
+      "w_exposed": 1.0,
+      "mu": 0.5,
+      "sigma": 0.2
+    },
+    "pyramid": {
+      "levels": 6
+    },
+    "input": {
+      "sort": "brightness",
+      "exts": [
+        "jpg",
+        "jpeg",
+        "png",
+        "bmp",
+        "tif",
+        "tiff"
+      ]
+    },
+    "stats": {
+      "over_threshold": 250,
+      "under_threshold": 5
+    }
+  }
+}

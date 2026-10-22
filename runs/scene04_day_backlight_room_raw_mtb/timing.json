@@ -1,0 +1,85 @@
+{
+  "timing_sec": {
+    "load": 3.0566,
+    "align_mtb": 1.0141,
+    "weights": 2.0626,
+    "fusion": 1.7955,
+    "save": 2.528
+  },
+  "total_sec": 11.5954,
+  "inputs": [
+    {
+      "over_pct": 0.0,
+      "under_pct": 1.925,
+      "mean": 55.53,
+      "p1": 0.0,
+      "p99": 99.7
+    },
+    {
+      "over_pct": 0.0,
+      "under_pct": 0.002,
+      "mean": 106.73,
+      "p1": 39.7,
+      "p99": 157.7
+    },
+    {
+      "over_pct": 0.0,
+      "under_pct": 0.903,
+      "mean": 112.95,
+      "p1": 21.7,
+      "p99": 165.3
+    }
+  ],
+  "fused": {
+    "over_pct": 0.0,
+    "under_pct": 0.0,
+    "mean": 90.88,
+    "p1": 36.3,
+    "p99": 133.0
+  },
+  "inputs_paths": [
+    "data\\raw\\self_capture\\scene04_day_backlight_room\\IMG20261022112147.dng",
+    "data\\raw\\self_capture\\scene04_day_backlight_room\\IMG20261022112203.dng",
+    "data\\raw\\self_capture\\scene04_day_backlight_room\\IMG20261022112156.dng"
+  ],
+  "config": {
+    "weights": {
+      "w_contrast": 1.0,
+      "w_saturated": 1.0,
+      "w_exposed": 1.0,
+      "mu": 0.5,
+      "sigma": 0.2
+    },
+    "pyramid": {
+      "levels": 6
+    },
+    "input": {
+      "sort": "brightness",
+      "exts": [
+        "jpg",
+        "jpeg",
+        "png",
+        "bmp",
+        "tif",
+        "tiff"
+      ]
+    },
+    "stats": {
+      "over_threshold": 250,
+      "under_threshold": 5
+    }
+  },
+  "align_info": [
+    {
+      "method": "mtb",
+      "dx": -1,
+      "dy": -51
+    },
+    null,
+    {
+      "method": "mtb",
+      "dx": -21,
+      "dy": -12
+    }
+  ]
+}
